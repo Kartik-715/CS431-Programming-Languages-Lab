@@ -9,22 +9,13 @@
 ```shell
 swipl -l Question_1.pl
 ```
-#### 1.1 - UNCLE
-
 #### Examples
 ```prolog
 ?- uncle(A, B). % Finds all A,B such that A is the uncle of B
 A = kattappa,
 B = avantika ;
 false.
-```
 
-
-#### 1.2 - HALF SISTER
-
-
-#### Examples
-```prolog
 ?- halfsister(A, B). % Finds all A,B such that A is the half-sister of B
 A = avantika,
 B = shivkami ;
@@ -32,7 +23,6 @@ A = shivkami,
 B = avantika ;
 false.
 ```
----
 
 ## Question - 2
 
@@ -79,13 +69,14 @@ Cost for this Path = 20
 
 ## 3 - Question - 3
 
+Note: Waiting Time for a bus is considered in the overall time taken from source to destination.
+
 To run your own input, open the file Question_3.pl and scroll to the bottom
 and add your input accordingly
 ```prolog
 weights('SRC', 'DEST', WeightOfEdge). % Define edges between two nodes
 source('SRC'). % Define Start Point
 end('DEST'). % Define Ending Point
-
 ```
 
 #### How to run
